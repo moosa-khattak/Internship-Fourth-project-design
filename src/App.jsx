@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from './Components/Navbar/Navbar.jsx'
-import Hero from "./Components/Hero/Hero.jsx"
+import Hero from "./Components/Hero/hero.jsx"
 import Product from './Components/Products/Product.jsx'
 import TopProducts from './Components/TopRatedProducts/TopProducts.jsx'
 import Banner from './Components/Banner/Banner.jsx'
