@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/hero'
-import Product from './Components/Products/Product'
-import TopProducts from './Components/TopRatedProducts/TopProducts'
-import Banner from './Components/Banner/Banner'
+import Navbar from './Components/Navbar/Navbar.jsx'
+import Hero from "./Components/Hero/Hero.jsx"
+import Product from './Components/Products/Product.jsx'
+import TopProducts from './Components/TopRatedProducts/TopProducts.jsx'
+import Banner from './Components/Banner/Banner.jsx'
 import Subscribe from "./Components/Subscribe/Subscribe.jsx"
 import Testimonials from './Components/Testimonials/Testimonials.jsx'
 import Footer from './Components/Footer/Footer.jsx'
