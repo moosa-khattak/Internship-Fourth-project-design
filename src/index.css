@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #fea827;
+  --color-secondary: #ed8900;
+}
+
+@utility container {
+  /* Default Styles */
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  /* Responsive Styles */
+  @variant sm {
+    padding-inline: 3rem;
+  }
+}
+
+@layer components {
+  .search-bar{
+    @apply  hidden sm:block w-[120px] sm:w-[200px]  group-hover:w-[150px]   group-hover:sm:w-[300px]  duration-200  bg-white py-1 px-3 focus:outline-none rounded-full dark:bg-gray-800 dark:text-white ;
+  }
+  
+}
